@@ -1,0 +1,30 @@
+run_date: 
+  - "20230630"
+  - "20230731"
+  - "20230831"
+  - "20230930"
+  - "20231231"
+  - "20231130"
+  - "20240229"
+  - "20240131"
+  - "20240331"
+  - "20240430"
+  - "20240531"
+
+
+target_column: "HasDefault"
+load_from_feature_store: False
+reference_split_date: "2023-09-30"
+to_feature_store: False
+test_fraction: 0.2
+random_state: 42
+run_name: "full_project"
+use_feature_selection: True
+num_methods: 2
+model_name: "loan_model"
+baseline_model_params:
+  n_estimators: 100
+  max_depth: 6
+  max_features: 20
+  random_state: 42
+  class_weight: "balanced"

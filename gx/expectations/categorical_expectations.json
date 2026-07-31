@@ -1,0 +1,66 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "categorical_expectations",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "seg_group",
+        "value_set": [
+          "Company",
+          "Personal"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "a_m_l_risk_rating",
+        "value_set": [
+          "Elevado",
+          "Medio",
+          "Baixo",
+          "0"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "payment_frequency",
+        "value_set": [
+          "Monthly",
+          "Single",
+          "Semiannual",
+          "Quarterly"
+        ]
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_distinct_values_to_be_in_set",
+      "kwargs": {
+        "column": "credit_type",
+        "value_set": [
+          "Credit Card",
+          "Unarranged Overdraft",
+          "Personal Credit",
+          "Arranged Overdraft",
+          "Bill of Exchange Discount",
+          "Leasing",
+          "Business Loan Account",
+          "Secured Current Account",
+          "Mortgage Loan Account",
+          "Personal Loan Account"
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.18.12"
+  }
+}
